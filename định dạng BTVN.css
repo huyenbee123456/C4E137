@@ -1,0 +1,54 @@
+* {
+   font-family:Arial, sans-serif;
+  }
+.item-table {font-size:x-large;}
+.table {
+        border-bottom: 1px;
+        border-collapse: collapse;
+        width: 1000px;
+        height: 250px}
+.tr0 {
+    background-color: black;
+    color:white;
+}
+.tr1 {background-color:lightgray;}
+.item {color:rgb(8, 120, 233)}
+.instock {color:red}
+.detail button {    border: none;
+    height:75%;    
+    width:25%;
+    background-color:rgb(8, 120, 233) ;
+    border-color: rgb(8, 120, 233);
+    color:white;
+    border-radius: 5px;}
+
+.table2 {
+        border-radius: 10px;
+        width: 600px;
+        height:250px;
+        border:1px solid lightgrey;}
+.like {
+    background-color:rgb(8, 120, 233);
+    color:white;
+    border:none;
+    border-radius:  15px;
+    width:max-content;
+}
+.heart {
+    background-color:crimson;
+    color:white;
+    border:none;
+    border-radius: 15px;
+    width:max-content;
+}
+.eyes {
+    background-color:grey;
+    color:white;
+    border:none;
+    border-radius: 15px;
+    width:max-content;
+}
+.sao {color:red}
+
+.bang { border: 1px solid lightgrey;
+    padding: 20px}
