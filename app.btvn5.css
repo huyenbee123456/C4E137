@@ -1,0 +1,146 @@
+.header {
+    background-color: white;
+    width:auto;
+    height: 30px;
+    padding: 10px;
+    position:sticky;
+    top: 0px;
+    left: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchbar {
+    border:1px solid black;
+    width:20%;
+    padding:5px;
+}
+.rightside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.avatar {
+    background-color:mediumaquamarine;
+    border-radius: 25%;
+}
+
+.speakers {
+    font-size: large;
+}
+
+.card-item {
+    display: flex;
+    background-color: orange;
+    border-radius: 15px;
+}
+
+.card-item .card-left {
+    width: 50%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #E2E2E2;
+}
+
+.card-item .card-left .card-avatar {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card-item .card-left .card-call {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item .card-left .card-call .card-call-item {
+    max-width: 60px;
+    width: 20%;
+    aspect-ratio: 1/1;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.card-item .card-right {
+    font-size: 18px;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-item .card-right .card-name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-item .card-right .card-language {
+    display: flex;
+    gap: 10px;
+}
+
+.card-contact {
+    display: flex;
+    justify-content: space-around;
+}
+.card-major {
+    font-size: larger;
+}
+
+.card-contact-item {
+    max-width: 60px;
+    width: 20%;
+    aspect-ratio: 1/1;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.card-info {
+    aspect-ratio: 1/1;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-list {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+#id2 {
+    background-color: lightskyblue;
+}
+#id3 {
+    background-color: salmon;
+}
+#id4 {
+    background-color:mediumpurple;
+}
+#id5 {
+    background-color:darkseagreen;
+}
+#id6 {
+    background-color:lightblue;
+}
+
+@media screen and (max-width: 1024px, max-height:720px) {
+    .cardlist {
+        font-size: 50%;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .speakers {
+        display: none;
+    }
+}
