@@ -1,0 +1,113 @@
+.container {
+    position: absolute;
+    width: 1213px;
+    height: 854px;
+    left: 112px;
+    top: 368px;
+
+}
+.header {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
+.search-box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    
+    width: 1013px;
+    height: 64px;
+}
+.info {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+width: 534px;
+height: 56px;
+border-radius: 4px;
+justify-content: space-between;
+
+}
+
+.newUsers {
+justify-content: center;
+align-items: center;
+padding: 16px;
+width: 115px;
+height: 56px;
+background: #849FFF;
+border-radius: 8px;
+}
+
+.card-list {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 1021px;
+height: 432px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+
+    .card-avatar {
+        width: 97px;
+        height: 97px;
+        border-radius: 50%;
+    }
+    .buttons {
+        float:left;
+
+    }
+    
+    .card-item {
+        box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 16px;
+
+width: 327px;
+height: 208px;
+
+background: #FBFCFF;
+border: 1px solid #BFC8E6;
+box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+border-radius: 16px;
+    }
+    
+    .btninfo {
+        display: flex;
+justify-content: center;
+align-items: center;
+padding: 2px 8px;
+gap: 10px;
+
+width: 61px;
+height: 22px;
+
+background: #FFFFFF;
+border: 1px solid #BFC8E6;
+border-radius: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+
+color: #516FD5;
+  }
+
+
+    
